@@ -1,0 +1,17 @@
+string="Python is a case sensitive language"
+#a)
+print(f"length of the string is {len(string)}")
+#b)
+print(string[-1::-1])
+#c)
+new_string=string[10:27]
+#d)
+string_1=string.replace("a case sensitive","object oriented")
+print(string_1)
+#e)
+print(string.find("a"))
+print(string.find("a",12))
+print(string.find("a",24))
+print(string.find("a",29))
+#f)
+print(string.replace(" ",""))
